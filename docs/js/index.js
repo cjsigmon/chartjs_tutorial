@@ -13,7 +13,7 @@ const radarData = {
     'Running'
   ],
   datasets: [{
-    label: 'My First Dataset',
+    label: 'Men Over the Age 30',
     data: [65, 59, 90, 81, 56, 55, 40],
     fill: true,
     backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -23,7 +23,7 @@ const radarData = {
     pointHoverBackgroundColor: '#fff',
     pointHoverBorderColor: 'rgb(255, 99, 132)'
   }, {
-    label: 'My Second Dataset',
+    label: 'Norby the Superpowered Dog',
     data: [28, 48, 40, 19, 96, 27, 100],
     fill: true,
     backgroundColor: 'rgba(54, 162, 235, 0.2)',
@@ -80,10 +80,15 @@ const polarData = {
   new Chart(barContext, {
     type: 'bar',
     data: {
-      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      labels: ['Republican', 'Democrat', 'Independent'],
       datasets: [{
         label: '# of Votes',
-        data: [12, 19, 3, 5, 2, 3],
+        data: [12, 19, 3],
+        backgroundColor: [
+          'rgb(255, 0, 0)',
+          'rgb(0, 0, 255)',
+          'rgb(255, 255, 0)'
+        ],
         borderWidth: 1
       }]
     },
