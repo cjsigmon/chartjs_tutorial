@@ -36,12 +36,12 @@ const radarData = {
 };
 const donutData = {
   labels: [
-    'Red',
-    'Blue',
-    'Yellow'
+    'Lunar Moth',
+    'Eastern Moth',
+    'Owl Moth'
   ],
   datasets: [{
-    label: 'My First Dataset',
+    label: 'Distribution of moth sales',
     data: [300, 50, 100],
     backgroundColor: [
       'rgb(255, 99, 132)',
@@ -60,7 +60,7 @@ const polarData = {
     'Blue'
   ],
   datasets: [{
-    label: 'My First Dataset',
+    label: 'Some intersting colors',
     data: [11, 16, 7, 3, 14],
     backgroundColor: [
       'rgb(255, 99, 132)',
